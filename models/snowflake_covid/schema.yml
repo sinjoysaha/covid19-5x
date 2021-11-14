@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: fivetran_interview_db
+    description: 'Snowflake DB containing Covid19 Indonesia table'
+    database: fivetran_interview_db
+    schema: google_sheets
+    tables:
+      - name: covid_19_indonesia_sinjoy_saha
+        description: 'Snowflake Covid19 Indonesia data'
